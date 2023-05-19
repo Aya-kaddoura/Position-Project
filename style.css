@@ -1,0 +1,139 @@
+html{
+    margin-top: 0;
+}
+body{
+    margin: 0;
+}
+.hero_section{
+    background-color: #e4f8f6;
+    background-size: contain;
+    background-repeat:no-repeat ;
+    background-position: bottom;
+    height: 80vh;
+    width: 50wh;
+    position: relative;
+}
+
+.hero_section h1{
+    margin-top: 0;
+    color: #65adac;
+    position: absolute;
+    top: 23%;
+    right: 48%;
+    font-size: 2.3em;
+    font-family: Sacramento,Segoe Print;
+}
+.hero_section h3{
+    margin-top: 0;
+    color: #65adac;
+    position: absolute;
+    top: 33%;
+    right: 48%;
+    font-family: Segoe Print;
+}
+img[src="mountin.png"]{
+        position: absolute;
+        bottom: 0;
+        right: 25%;
+        width: 50%;
+        height: 50%;
+}
+img[src="cloud.png"]{
+    position: absolute;
+    top: 5%;
+    right:25%;
+    width:200px;
+    height:100px;
+}
+img[src="cloud.png"]:last-of-type{
+    position: absolute;
+    top: 35%;
+    left:20%;
+    width:200px;
+    height:100px;
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hello_section{
+    text-align: center;
+    width: 85%;
+    margin: auto;
+}
+.hello_section img[src="avatar.png"]{
+    margin: 30px 0 10px 0;
+    width: 200px;
+    height: 200px;
+    border:solid 1px black;
+    border-radius: 50%;
+    clear: both;
+}
+.hello_section h2{
+    color: #2DBABF;
+    margin-top: 10px;
+    font-size: 1.8em;
+}
+
+.left_section{
+    margin-top: 50px;
+}
+.left_section img[src="avatar.png"]{
+    width: 20%;
+    float: left;
+    border: solid 1px black;
+    border-radius: 50%;
+    margin: 0 7px;
+}
+.second_section{
+    margin-top: 50px;
+}
+.second_section img[src="avatar.png"]{
+    width: 20%;
+    float: right;
+    border: solid 1px black;
+    border-radius: 50%;
+    margin: 0 7px;
+}
+h4{
+    font-size: 1.1em;
+    color: #2DBABF;
+}
+.last_section{
+    clear: both;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+}
+.last_section h2,.last_section h4{
+    color: #2DBABF;
+}
+input[type='submit']{
+    background-color: #2DBABF;
+    color: white;
+    padding: 10px;
+    border: solid 1px #2DBABF;
+    border-radius: 10px ;
+    margin-top: 10px;
+}
+footer{
+    width: 100%;
+    background-color: #65adac;
+    text-align: center;
+    margin: 30px 0 0 0;
+    padding: 30px 0 30px 0;
+}
+footer a{
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+    color: #045255;
+}
+footer p{
+    color:white;
+    font-size: 1.2em;
+    margin-top: 30px;
+}
